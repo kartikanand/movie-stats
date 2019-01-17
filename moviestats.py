@@ -70,3 +70,16 @@ class MovieStats:
     def get_max_count_directors():
         return get_max_count_items(self.director_count)
 
+    def print_stats():
+        # get genres with highest count
+        print('Most loved genres')
+        print(self.get_max_count_genres)
+
+        # get actors with highest count
+        print('Most loved actors')
+        print(self.get_max_count_actors)
+
+        # get directors with highest count
+        print('Most loved directors')
+        print(self.get_max_count_directors)
+
